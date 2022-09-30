@@ -1,0 +1,149 @@
+// путь к блоку "Сообщения"
+.title-list {
+    font-size: 11px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(182, 181, 181);
+}
+
+// Заголовок "Сообщения"
+.title {
+    margin-top: 21px;
+    font-size: 37px;
+    font-family: "Gilroy";
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+
+.btn {
+    border: 1px solid #039db5;
+    padding: 12px 20px;
+    color: #039db5;
+}
+
+.btn-active {
+    color: white !important;
+    background: #039db5 !important;
+}
+
+.admin {
+    color: #039db5;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    color: rgb(3, 157, 181);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.text--active {
+    display: block;
+}
+
+.msg {
+    &-icon {
+        margin-right: 10px;
+    }
+    &-name {
+        font-size: 14px;
+        font-weight: bold;
+        font-family: "Ubuntu";
+        color: rgb(35, 40, 51);
+        text-transform: uppercase;
+        line-height: 1.5;
+    }
+    &-date {
+        font-size: 13px;
+        font-family: "HelveticaNeueCyr";
+        color: rgb(136, 136, 136);
+    }
+    &-answer {
+        font-size: 14px;
+        font-family: "Ubuntu";
+        color: rgb(136, 136, 136);
+        line-height: 1.5;
+        margin-right: 30px;
+        &--active {
+            color: #039db5;
+            &~.msg-arrow {
+                transform: rotate(180deg);
+            }
+        }
+    }
+}
+
+// .personal-message {
+//   border: 1px solid #eaebec;
+//   background-color: white;
+//   padding: 0 20px 20px 20px;
+//   margin-top: 20px;
+//   &--active {
+//     border: 1px solid #039db5;
+//   }
+// }
+// .body-message {
+//   //   border: 1px solid #039db5;
+//   margin-top: 20px;
+//   &__fullname {
+//     margin-right: 50px;
+//     max-width: 300px;
+//     font-size: 14px;
+//     font-family: "Ubuntu";
+//     color: rgb(35, 40, 51);
+//     line-height: 1.5;
+//     text-transform: uppercase;
+//     & img {
+//       margin-right: 13px;
+//     }
+//     & p {
+//       font-size: 13px;
+//       font-family: "HelveticaNeueCyr";
+//       color: rgb(136, 136, 136);
+//     }
+//     & .name {
+//       font-weight: bold;
+//       &--active {
+//         color: #039db5;
+//       }
+//     }
+//   }
+//   &__product {
+//     max-width: 460px;
+//     flex-wrap: nowrap;
+//     margin-right: 80px;
+//     font-size: 14px;
+//     font-family: "Ubuntu";
+//     color: rgb(35, 40, 51);
+//     line-height: 1.5;
+//     & div {
+//       margin-right: 20px;
+//     }
+//   }
+//   &__answer {
+//     font-size: 14px;
+//     font-family: "Ubuntu";
+//     color: rgb(136, 136, 136);
+//     & div {
+//       margin-right: 15px;
+//     }
+//     & .answer--active {
+//       color: #039db5 !important;
+//     }
+//     & .answer-arrow {
+//       &--active {
+//         transform: rotate(180deg);
+//       }
+//     }
+//   }
+// }
+// .text-message {
+//   padding: 18px 0px;
+//   display: none;
+//   max-width: 950px;
+//   &--active {
+//     display: block;
+//   }
+// }
+// .admin {
+//   color: #039db5;
+//   font-weight: bold;
+// }

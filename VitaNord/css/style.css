@@ -1,0 +1,240 @@
+.container {
+    margin: auto;
+    max-width: 1161px;
+    height: inherit;
+    position: relative;
+    padding: 0 20px;
+}
+
+section {
+    padding-top: 14px;
+}
+
+hr {
+    border: 1px solid #eaebec;
+    width: 100%;
+}
+
+.br {
+    border: 1px solid red !important;
+}
+
+.bl {
+    border: 1px solid blue !important;
+}
+
+.fx {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fx_c {
+    justify-content: center;
+}
+
+.fx_e {
+    justify-content: flex-end;
+}
+
+.fx_sb {
+    justify-content: space-between;
+}
+
+.fx_sa {
+    justify-content: space-around;
+}
+
+.fx_se {
+    justify-content: space-evenly;
+}
+
+.fx_t {
+    align-items: flex-start;
+}
+
+.fx_m {
+    align-items: center;
+}
+
+.fx_b {
+    align-items: flex-end;
+}
+
+.fx_col {
+    flex-direction: column;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.justify {
+    text-align: justify;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    outline: none;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+}
+
+
+/* 
+@font-face {
+  font-family: "roboto-example";
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+  src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+} */
+
+body {
+    /* font-family: "Roboto", sans-serif; */
+}
+
+.content {
+    background: #f8f8f8;
+    margin-top: 24px;
+    padding: 25px 20px;
+}
+
+.content__button-group {
+    margin-bottom: 20px;
+}
+
+.content__button-group .btn {
+    margin-right: 15px;
+}
+
+.content__button-group :last-child {
+    margin-right: 0px;
+}
+
+.person-msg {
+    border: 1px solid #eaebec;
+    margin-top: 5px;
+}
+
+.person-msg--active {
+    border: 1px solid #039db5;
+}
+
+.body-msg {
+    background: white;
+    padding: 20px;
+}
+
+.body-msg--admin {
+    padding-top: 0px;
+}
+
+.body-msg__inform {
+    padding-bottom: 20px;
+}
+
+.body-msg__text {
+    display: none;
+    font-size: 14px;
+    padding-right: 40px;
+    font-family: "Ubuntu" !important;
+    color: rgb(35, 40, 51);
+    line-height: 1.5;
+}
+
+.body-msg .tablet div {
+    margin-right: 40px;
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(35, 40, 51);
+    line-height: 1.5;
+}
+
+.inform--admin {
+    padding-top: 20px !important;
+    border-top: 1px solid #eaebec !important;
+}
+
+.title-list {
+    font-size: 11px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(182, 181, 181);
+}
+
+.title {
+    margin-top: 21px;
+    font-size: 37px;
+    font-family: "Gilroy";
+    color: rgb(56, 56, 56);
+    font-weight: bold;
+}
+
+.btn {
+    border: 1px solid #039db5;
+    padding: 12px 20px;
+    color: #039db5;
+}
+
+.btn-active {
+    color: white !important;
+    background: #039db5 !important;
+}
+
+.admin {
+    color: #039db5;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    color: rgb(3, 157, 181);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.text--active {
+    display: block;
+}
+
+.msg-icon {
+    margin-right: 10px;
+}
+
+.msg-name {
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Ubuntu";
+    color: rgb(35, 40, 51);
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.msg-date {
+    font-size: 13px;
+    font-family: "HelveticaNeueCyr";
+    color: rgb(136, 136, 136);
+}
+
+.msg-answer {
+    font-size: 14px;
+    font-family: "Ubuntu";
+    color: rgb(136, 136, 136);
+    line-height: 1.5;
+    margin-right: 30px;
+}
+
+.msg-answer--active {
+    color: #039db5;
+}
+
+.msg-answer--active~.msg-arrow {
+    transform: rotate(180deg);
+}
+
+
+/*# sourceMappingURL=style.css.map */

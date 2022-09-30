@@ -1,0 +1,55 @@
+//содержимое блока "сообщения"
+.content {
+    background: #f8f8f8;
+    margin-top: 24px;
+    padding: 25px 20px;
+    //секция с кнопками
+    &__button-group {
+        margin-bottom: 20px;
+        & .btn {
+            margin-right: 15px;
+        }
+        & :last-child {
+            margin-right: 0px;
+        }
+    }
+}
+
+.person-msg {
+    border: 1px solid #eaebec;
+    margin-top: 5px;
+    &--active {
+        border: 1px solid #039db5;
+    }
+}
+
+.body-msg {
+    background: white;
+    padding: 20px;
+    &--admin {
+        padding-top: 0px;
+    }
+    &__inform {
+        padding-bottom: 20px;
+    }
+    &__text {
+        display: none;
+        font-size: 14px;
+        padding-right: 40px;
+        font-family: "Ubuntu";
+        color: rgb(35, 40, 51);
+        line-height: 1.5;
+    }
+    & .tablet div {
+        margin-right: 40px;
+        font-size: 14px;
+        font-family: "Ubuntu";
+        color: rgb(35, 40, 51);
+        line-height: 1.5;
+    }
+}
+
+.inform--admin {
+    padding-top: 20px !important;
+    border-top: 1px solid #eaebec !important;
+}
