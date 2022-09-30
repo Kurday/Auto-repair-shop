@@ -1,0 +1,29 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="33px" height="37px">
+<defs>
+<filter filterUnits="userSpaceOnUse" id="Filter_0" x="0px" y="0px" width="33px" height="37px"  >
+    <feOffset in="SourceAlpha" dx="0" dy="2" />
+    <feGaussianBlur result="blurOut" stdDeviation="1" />
+    <feFlood flood-color="rgb(0, 0, 0)" result="floodOut" />
+    <feComposite operator="atop" in="floodOut" in2="blurOut" />
+    <feComponentTransfer><feFuncA type="linear" slope="0.75"/></feComponentTransfer>
+    <feMerge>
+    <feMergeNode/>
+    <feMergeNode in="SourceGraphic"/>
+  </feMerge>
+</filter>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(236,45,49)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(197,0,19)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<g filter="url(#Filter_0)">
+<path fill-rule="evenodd"  fill="rgb(255, 255, 255)"
+ d="M24.649,13.262 L22.001,9.286 L14.380,9.500 L13.970,8.025 L23.640,4.551 L29.087,8.392 L28.643,12.781 L24.649,13.262 ZM12.127,6.737 L8.502,13.445 L7.020,13.062 L8.846,2.950 L14.896,0.154 L18.475,2.732 L16.895,6.432 L12.127,6.737 ZM8.979,20.507 L7.907,21.600 L0.063,14.962 L0.666,8.324 L4.689,6.514 L7.102,9.732 L4.983,14.014 L8.979,20.507 ZM5.065,19.863 L7.713,23.840 L15.334,23.626 L15.744,25.100 L6.074,28.575 L0.627,24.734 L1.071,20.345 L5.065,19.863 ZM17.587,26.388 L21.212,19.681 L22.694,20.063 L20.868,30.175 L14.818,32.972 L11.239,30.393 L12.819,26.693 L17.587,26.388 ZM20.735,12.618 L21.807,11.526 L29.651,18.163 L29.048,24.801 L25.025,26.611 L22.612,23.393 L24.731,19.111 L20.735,12.618 Z"/>
+</g>
+<path fill="url(#PSgrad_0)"
+ d="M24.649,13.262 L22.001,9.286 L14.380,9.500 L13.970,8.025 L23.640,4.551 L29.087,8.392 L28.643,12.781 L24.649,13.262 ZM12.127,6.737 L8.502,13.445 L7.020,13.062 L8.846,2.950 L14.896,0.154 L18.475,2.732 L16.895,6.432 L12.127,6.737 ZM8.979,20.507 L7.907,21.600 L0.063,14.962 L0.666,8.324 L4.689,6.514 L7.102,9.732 L4.983,14.014 L8.979,20.507 ZM5.065,19.863 L7.713,23.840 L15.334,23.626 L15.744,25.100 L6.074,28.575 L0.627,24.734 L1.071,20.345 L5.065,19.863 ZM17.587,26.388 L21.212,19.681 L22.694,20.063 L20.868,30.175 L14.818,32.972 L11.239,30.393 L12.819,26.693 L17.587,26.388 ZM20.735,12.618 L21.807,11.526 L29.651,18.163 L29.048,24.801 L25.025,26.611 L22.612,23.393 L24.731,19.111 L20.735,12.618 Z"/>
+</svg>

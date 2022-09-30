@@ -1,0 +1,38 @@
+// @font-face {
+//   font-family: "Inconsolata";
+//   font-weight: normal;
+//   font-style: normal;
+//   src: url("../fonts/Inconsolata.ttf");
+//   // src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+// }
+
+@mixin family($fname, $fstyle, $fweight, $url) {
+  @font-face {
+    font-family: $fname;
+    font-style: $fstyle;
+    font-weight: $fweight;
+    src: url($url);
+  }
+}
+
+@include family('oswald-vh', normal, 700, "../fonts/Oswald-Bold.ttf");
+@include family('oswald-vh', normal, 500, "../fonts/Oswald-Medium.ttf");
+@include family('raleway-vh', normal, 800, "../fonts/Raleway-ExtraBold.ttf");
+@include family('raleway-vh', normal, 500, "../fonts/Raleway-Medium.ttf");
+@include family('raleway-vh', normal, 400, "../fonts/Raleway-Regular.ttf");
+@include family('raleway-vh', normal, 700, "../fonts/Raleway-Bold.ttf");
+@include family('roboto-vh', normal, 500, "../fonts/Roboto-Medium.ttf");
+
+@font-face {
+  font-family: ral-normal;
+  src: url(./fonts/Raleway-Medium);
+}  
+
+@font-face {
+  font-family: ral-bold;
+  src: url(./fonts/Raleway-Bold);
+} 
+
+
+
+
