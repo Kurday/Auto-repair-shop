@@ -1,0 +1,465 @@
+/* WIDTH % */
+.w-a { width: auto; }
+.w0 { width: 0px; }
+.w5 { width: 5%; }
+.w10 { width: 10%; }
+.w15 { width: 15%; }
+.w20 { width: 20%; }
+.w25 { width: 25%; }    
+.w30 { width: 30%; }
+.w40 { width: 40%; }
+.w50 { width: 50%; }
+.w60 { width: 60%; }
+.w70 { width: 70%; }
+.w80 { width: 80%; }
+.w90 { width: 90%; }
+.w100 { width: 100%; }
+
+/* HEIGHT % */
+.h-a { height: auto; }
+.h0 { height: 0px; }
+.h5 { height: 5%; }
+.h10 { height: 10%; }
+.h15 { height: 15%; }
+.h20 { height: 20%; }
+.h25 { height: 25%; }
+.h30 { height: 30%; }
+.h40 { height: 40%; }
+.h50 { height: 50%; }
+.h60 { height: 60%; }
+.h70 { height: 70%; }
+.h80 { height: 80%; }
+.h90 { height: 90%; }
+.h100 { height: 100%; }
+
+/* WIDTH VW */
+.vw5 { width: 5vw; }
+.vw10 { width: 10vw; }
+.vw15 { width: 15vw; }
+.vw20 { width: 20vw; }
+.vw25 { width: 25vw; }
+.vw30 { width: 30vw; }
+.vw40 { width: 40vw; }
+.vw50 { width: 50vw; }
+.vw60 { width: 60vw; }
+.vw70 { width: 70vw; }
+.vw80 { width: 80vw; }
+.vw90 { width: 90vw; }
+.vw100 { width: 100vw; }
+
+/* HEIGHT VH */
+.vh5 { height: 5vh; }
+.vh10 { height: 10vh; }
+.vh15 { height: 15vh; }
+.vh20 { height: 20vh; }
+.vh25 { height: 25vh; }
+.vh30 { height: 30vh; }
+.vh40 { height: 40vh; }
+.vh50 { height: 50vh; }
+.vh60 { height: 60vh; }
+.vh70 { height: 70vh; }
+.vh80 { height: 80vh; }
+.vh90 { height: 90vh; }
+.vh100 { height: 100vh; }
+
+@media (min-width: 280px)
+{
+    /* WIDTH % */
+    .ws-a { width: auto; }
+    .ws0 { width: 0px; }
+    .ws5 { width: 5%; }
+    .ws10 { width: 10%; }
+    .ws15 { width: 15%; }
+    .ws20 { width: 20%; }
+    .ws25 { width: 25%; }    
+    .ws30 { width: 30%; }
+    .ws40 { width: 40%; }
+    .ws50 { width: 50%; }
+    .ws60 { width: 60%; }
+    .ws70 { width: 70%; }
+    .ws80 { width: 80%; }
+    .ws90 { width: 90%; }
+    .ws100 { width: 100%; }
+
+    /* HEIGHT % */
+    .hs-a { height: auto; }
+    .hs0 { height: 0px; }
+    .hs5 { height: 5%; }
+    .hs10 { height: 10%; }
+    .hs15 { height: 15%; }
+    .hs20 { height: 20%; }
+    .hs25 { height: 25%; }
+    .hs30 { height: 30%; }
+    .hs40 { height: 40%; }
+    .hs50 { height: 50%; }
+    .hs60 { height: 60%; }
+    .hs70 { height: 70%; }
+    .hs80 { height: 80%; }
+    .hs90 { height: 90%; }
+    .hs100 { height: 100%; }
+
+    /* WIDTH VW */
+    .vws5 { width: 5vw; }
+    .vws10 { width: 10vw; }
+    .vws15 { width: 15vw; }
+    .vws20 { width: 20vw; }
+    .vws25 { width: 25vw; }
+    .vws30 { width: 30vw; }
+    .vws40 { width: 40vw; }
+    .vws50 { width: 50vw; }
+    .vws60 { width: 60vw; }
+    .vws70 { width: 70vw; }
+    .vws80 { width: 80vw; }
+    .vws90 { width: 90vw; }
+    .vws100 { width: 100vw; }
+
+    /* HEIGHT VH */
+    .vhs5 { height: 5vh; }
+    .vhs10 { height: 10vh; }
+    .vhs15 { height: 15vh; }
+    .vhs20 { height: 20vh; }
+    .vhs25 { height: 25vh; }
+    .vhs30 { height: 30vh; }
+    .vhs40 { height: 40vh; }
+    .vhs50 { height: 50vh; }
+    .vhs60 { height: 60vh; }
+    .vhs70 { height: 70vh; }
+    .vhs80 { height: 80vh; }
+    .vhs90 { height: 90vh; }
+    .vhs100 { height: 100vh; }
+}
+
+@media (min-width: 568px)
+{
+    /* WIDTH % */
+    .w-s-a { width: auto; }
+    .w-s0 { width: 0px; }
+    .w-s5 { width: 5%; }
+    .w-s10 { width: 10%; }
+    .w-s15 { width: 15%; }
+    .w-s20 { width: 20%; }
+    .w-s25 { width: 25%; }
+    .w-s30 { width: 30%; }
+    .w-s40 { width: 40%; }
+    .w-s50 { width: 50%; }
+    .w-s60 { width: 60%; }
+    .w-s70 { width: 70%; }
+    .w-s80 { width: 80%; }
+    .w-s90 { width: 90%; }
+    .w-s100 { width: 100%; }
+
+    /* HEIGHT % */
+    .h-s-a { height: auto; }
+    .h-s0 { height: 0px; }
+    .h-s5 { height: 5%; }
+    .h-s10 { height: 10%; }
+    .h-s15 { height: 15%; }
+    .h-s20 { height: 20%; }
+    .h-s25 { height: 25%; }
+    .h-s30 { height: 30%; }
+    .h-s40 { height: 40%; }
+    .h-s50 { height: 50%; }
+    .h-s60 { height: 60%; }
+    .h-s70 { height: 70%; }
+    .h-s80 { height: 80%; }
+    .h-s90 { height: 90%; }
+    .h-s100 { height: 100%; }
+
+    /* WIDTH VW */
+    .vw-s5 { width: 5vw; }
+    .vw-s10 { width: 10vw; }
+    .vw-s15 { width: 15vw; }
+    .vw-s20 { width: 20vw; }
+    .vw-s25 { width: 25vw; }
+    .vw-s30 { width: 30vw; }
+    .vw-s40 { width: 40vw; }
+    .vw-s50 { width: 50vw; }
+    .vw-s60 { width: 60vw; }
+    .vw-s70 { width: 70vw; }
+    .vw-s80 { width: 80vw; }
+    .vw-s90 { width: 90vw; }
+    .vw-s100 { width: 100vw; }
+
+    /* HEIGHT VH */
+    .vh-s5 { height: 5vh; }
+    .vh-s10 { height: 10vh; }
+    .vh-s15 { height: 15vh; }
+    .vh-s20 { height: 20vh; }
+    .vh-s25 { height: 25vh; }
+    .vh-s30 { height: 30vh; }
+    .vh-s40 { height: 40vh; }
+    .vh-s50 { height: 50vh; }
+    .vh-s60 { height: 60vh; }
+    .vh-s70 { height: 70vh; }
+    .vh-s80 { height: 80vh; }
+    .vh-s90 { height: 90vh; }
+    .vh-s100 { height: 100vh; }
+}
+
+@media (min-width: 768px)
+{
+    /* WIDTH % */
+    .w-m-a { width: auto; }
+    .w-m0 { width: 0px; }
+    .w-m5 { width: 5%; }
+    .w-m10 { width: 10%; }
+    .w-m15 { width: 15%; }
+    .w-m20 { width: 20%; }
+    .w-m25 { width: 25%; }
+    .w-m30 { width: 30%; }
+    .w-m40 { width: 40%; }
+    .w-m50 { width: 50%; }
+    .w-m60 { width: 60%; }
+    .w-m70 { width: 70%; }
+    .w-m80 { width: 80%; }
+    .w-m90 { width: 90%; }
+    .w-m100 { width: 100%; }
+
+    /* HEIGHT % */
+    .h-m-a { height: auto; }
+    .h-m0 { height: 0px; }
+    .h-m5 { height: 5%; }
+    .h-m10 { height: 10%; }
+    .h-m15 { height: 15%; }
+    .h-m20 { height: 20%; }
+    .h-m25 { height: 25%; }
+    .h-m30 { height: 30%; }
+    .h-m40 { height: 40%; }
+    .h-m50 { height: 50%; }
+    .h-m60 { height: 60%; }
+    .h-m70 { height: 70%; }
+    .h-m80 { height: 80%; }
+    .h-m90 { height: 90%; }
+    .h-m100 { height: 100%; }
+
+    /* WIDTH VW */
+    .vw-m5 { width: 5vw; }
+    .vw-m10 { width: 10vw; }
+    .vw-m15 { width: 15vw; }
+    .vw-m20 { width: 20vw; }
+    .vw-m25 { width: 25vw; }
+    .vw-m30 { width: 30vw; }
+    .vw-m40 { width: 40vw; }
+    .vw-m50 { width: 50vw; }
+    .vw-m60 { width: 60vw; }
+    .vw-m70 { width: 70vw; }
+    .vw-m80 { width: 80vw; }
+    .vw-m90 { width: 90vw; }
+    .vw-m100 { width: 100vw; }
+
+    /* HEIGHT VH */
+    .vh-m5 { height: 5vh; }
+    .vh-m10 { height: 10vh; }
+    .vh-m15 { height: 15vh; }
+    .vh-m20 { height: 20vh; }
+    .vh-m25 { height: 25vh; }
+    .vh-m30 { height: 30vh; }
+    .vh-m40 { height: 40vh; }
+    .vh-m50 { height: 50vh; }
+    .vh-m60 { height: 60vh; }
+    .vh-m70 { height: 70vh; }
+    .vh-m80 { height: 80vh; }
+    .vh-m90 { height: 90vh; }
+    .vh-m100 { height: 100vh; }
+}
+
+@media (min-width: 992px)
+{
+    /* WIDTH % */
+    .w-l-a { width: auto; }
+    .w-l0 { width: 0px; }
+    .w-l5 { width: 5%; }
+    .w-l10 { width: 10%; }
+    .w-l15 { width: 15%; }
+    .w-l20 { width: 20%; }
+    .w-l25 { width: 25%; }
+    .w-l30 { width: 30%; }
+    .w-l40 { width: 40%; }
+    .w-l50 { width: 50%; }
+    .w-l60 { width: 60%; }
+    .w-l70 { width: 70%; }
+    .w-l80 { width: 80%; }
+    .w-l90 { width: 90%; }
+    .w-l100 { width: 100%; }
+
+    /* HEIGHT % */
+    .h-l-a { height: auto; }
+    .h-l0 { height: 0px; }
+    .h-l5 { height: 5%; }
+    .h-l10 { height: 10%; }
+    .h-l15 { height: 15%; }
+    .h-l20 { height: 20%; }
+    .h-l25 { height: 25%; }
+    .h-l30 { height: 30%; }
+    .h-l40 { height: 40%; }
+    .h-l50 { height: 50%; }
+    .h-l60 { height: 60%; }
+    .h-l70 { height: 70%; }
+    .h-l80 { height: 80%; }
+    .h-l90 { height: 90%; }
+    .h-l100 { height: 100%; }
+
+    /* WIDTH VW */
+    .vw-l5 { width: 5vw; }
+    .vw-l10 { width: 10vw; }
+    .vw-l15 { width: 15vw; }
+    .vw-l20 { width: 20vw; }
+    .vw-l25 { width: 25vw; }
+    .vw-l30 { width: 30vw; }
+    .vw-l40 { width: 40vw; }
+    .vw-l50 { width: 50vw; }
+    .vw-l60 { width: 60vw; }
+    .vw-l70 { width: 70vw; }
+    .vw-l80 { width: 80vw; }
+    .vw-l90 { width: 90vw; }
+    .vw-l100 { width: 100vw; }
+
+    /* HEIGHT VH */
+    .vh-l5 { height: 5vh; }
+    .vh-l10 { height: 10vh; }
+    .vh-l15 { height: 15vh; }
+    .vh-l20 { height: 20vh; }
+    .vh-l25 { height: 25vh; }
+    .vh-l30 { height: 30vh; }
+    .vh-l40 { height: 40vh; }
+    .vh-l50 { height: 50vh; }
+    .vh-l60 { height: 60vh; }
+    .vh-l70 { height: 70vh; }
+    .vh-l80 { height: 80vh; }
+    .vh-l90 { height: 90vh; }
+    .vh-l100 { height: 100vh; }
+}
+
+@media (min-width: 1200px)
+{
+    /* WIDTH % */
+    .w-x-a { width: auto; }
+    .w-x0 { width: 0px; }
+    .w-x5 { width: 5%; }
+    .w-x10 { width: 10%; }
+    .w-x15 { width: 15%; }
+    .w-x20 { width: 20%; }
+    .w-x25 { width: 25%; }
+    .w-x30 { width: 30%; }
+    .w-x40 { width: 40%; }
+    .w-x50 { width: 50%; }
+    .w-x60 { width: 60%; }
+    .w-x70 { width: 70%; }
+    .w-x80 { width: 80%; }
+    .w-x90 { width: 90%; }
+    .w-x100 { width: 100%; }
+
+    /* HEIGHT % */
+    .h-x-a { height: auto; }
+    .h-x0 { height: 0px; }
+    .h-x5 { height: 5%; }
+    .h-x10 { height: 10%; }
+    .h-x15 { height: 15%; }
+    .h-x20 { height: 20%; }
+    .h-x25 { height: 25%; }
+    .h-x30 { height: 30%; }
+    .h-x40 { height: 40%; }
+    .h-x50 { height: 50%; }
+    .h-x60 { height: 60%; }
+    .h-x70 { height: 70%; }
+    .h-x80 { height: 80%; }
+    .h-x90 { height: 90%; }
+    .h-x100 { height: 100%; }
+
+    /* WIDTH VW */
+    .vw-x5 { width: 5vw; }
+    .vw-x10 { width: 10vw; }
+    .vw-x15 { width: 15vw; }
+    .vw-x20 { width: 20vw; }
+    .vw-x25 { width: 25vw; }
+    .vw-x30 { width: 30vw; }
+    .vw-x40 { width: 40vw; }
+    .vw-x50 { width: 50vw; }
+    .vw-x60 { width: 60vw; }
+    .vw-x70 { width: 70vw; }
+    .vw-x80 { width: 80vw; }
+    .vw-x90 { width: 90vw; }
+    .vw-x100 { width: 100vw; }
+
+    /* HEIGHT VH */
+    .vh-x5 { height: 5vh; }
+    .vh-x10 { height: 10vh; }
+    .vh-x15 { height: 15vh; }
+    .vh-x20 { height: 20vh; }
+    .vh-x25 { height: 25vh; }
+    .vh-x30 { height: 30vh; }
+    .vh-x40 { height: 40vh; }
+    .vh-x50 { height: 50vh; }
+    .vh-x60 { height: 60vh; }
+    .vh-x70 { height: 70vh; }
+    .vh-x80 { height: 80vh; }
+    .vh-x90 { height: 90vh; }
+    .vh-x100 { height: 100vh; }
+}
+
+@media (min-width: 1440px)
+{   
+   /* WIDTH % */
+   .w-w-a { width: auto; }
+   .w-w0 { width: 0px; }
+   .w-w5 { width: 5%; }
+   .w-w10 { width: 10%; }
+   .w-w15 { width: 15%; }
+   .w-w20 { width: 20%; }
+   .w-w25 { width: 25%; }
+   .w-w30 { width: 30%; }
+   .w-w40 { width: 40%; }
+   .w-w50 { width: 50%; }
+   .w-w60 { width: 60%; }
+   .w-w70 { width: 70%; }
+   .w-w80 { width: 80%; }
+   .w-w90 { width: 90%; }
+   .w-w100 { width: 100%; }
+
+   /* HEIGHT % */
+   .h-w-a { height: auto; }
+   .h-w0 { height: 0px; }
+   .h-w5 { height: 5%; }
+   .h-w10 { height: 10%; }
+   .h-w15 { height: 15%; }
+   .h-w20 { height: 20%; }
+   .h-w25 { height: 25%; }
+   .h-w30 { height: 30%; }
+   .h-w40 { height: 40%; }
+   .h-w50 { height: 50%; }
+   .h-w60 { height: 60%; }
+   .h-w70 { height: 70%; }
+   .h-w80 { height: 80%; }
+   .h-w90 { height: 90%; }
+   .h-w100 { height: 100%; }
+
+   /* WIDTH VW */
+   .vw-w5 { width: 5vw; }
+   .vw-w10 { width: 10vw; }
+   .vw-w15 { width: 15vw; }
+   .vw-w20 { width: 20vw; }
+   .vw-w25 { width: 25vw; }
+   .vw-w30 { width: 30vw; }
+   .vw-w40 { width: 40vw; }
+   .vw-w50 { width: 50vw; }
+   .vw-w60 { width: 60vw; }
+   .vw-w70 { width: 70vw; }
+   .vw-w80 { width: 80vw; }
+   .vw-w90 { width: 90vw; }
+   .vw-w100 { width: 100vw; }
+
+   /* HEIGHT VH */
+   .vh-w5 { height: 5vh; }
+   .vh-w10 { height: 10vh; }
+   .vh-w15 { height: 15vh; }
+   .vh-w20 { height: 20vh; }
+   .vh-w25 { height: 25vh; }
+   .vh-w30 { height: 30vh; }
+   .vh-w40 { height: 40vh; }
+   .vh-w50 { height: 50vh; }
+   .vh-w60 { height: 60vh; }
+   .vh-w70 { height: 70vh; }
+   .vh-w80 { height: 80vh; }
+   .vh-w90 { height: 90vh; }
+   .vh-w100 { height: 100vh; }
+}
