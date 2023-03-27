@@ -1,0 +1,338 @@
+/* TEXT ALIGN */
+.t-center { text-align: center; }
+.t-left { text-align: left; }
+.t-right { text-align: right; }
+.t-justify { text-align: justify; }
+
+/* TEXT DECORATION */
+.t-none, 
+.t-none *
+{ text-decoration: none; }
+.t-under, 
+.t-under *
+{ text-decoration: underline; }
+.t-over, 
+.t-over *
+{ text-decoration: overline; }
+.t-strike, 
+.t-strike *
+{ text-decoration: line-through; }
+
+/* TEXT TRANSFORM */
+.t-normal, 
+.t-normal * 
+{ text-transform: none; }
+.t-upper, 
+.t-upper *
+{ text-transform: uppercase; }
+.t-lower, 
+.t-lower *
+{ text-transform: lowercase; }
+.t-capit, 
+.t-capit *
+{ text-transform: capitalize; }
+
+/* TEXT COLOR */
+.t-reset,
+.t-reset *
+{ color: inherit !important; }
+.t-white,
+.t-white *
+{ color: white !important; }
+.t-black,
+.t-black *
+{ color: black !important; }
+
+/* FONT STYLE */
+.fs-normal, 
+.fs-normal *
+{ font-style: normal; }
+.fs-italic, 
+.fs-italic *
+{ font-style: italic; }
+.fs-obl, 
+.fs-obl *
+{ font-style: oblique; }
+
+/* FONT WEIGHT */
+.fw-light, 
+.fw-light *
+{ font-weight: lighter; }
+.fw-normal, 
+.fw-normal *
+{ font-weight: normal; }
+.fw-bold, 
+.fw-bold *
+{ font-weight: bold; }
+.fw100, 
+.fw100 *
+{ font-weight: 100; }
+.fw200, 
+.fw200 *
+{ font-weight: 200; }
+.fw300, 
+.fw300 *
+{ font-weight: 300; }
+.fw400, 
+.fw400 *
+{ font-weight: 400; }
+.fw500, 
+.fw500 *
+{ font-weight: 500; }
+.fw600, 
+.fw600 *
+{ font-weight: 600; }
+.fw700, 
+.fw700 *
+{ font-weight: 700; }
+.fw800, 
+.fw800 *
+{ font-weight: 800; }
+.fw900, 
+.fw900 *
+{ font-weight: 900; }
+
+
+
+
+@media (min-width: 280px)
+{
+    .t-p-center { text-align: center; }
+    .t-p-left { text-align: left; }
+    .t-p-right { text-align: right; }
+    .t-p-justify { text-align: justify; }
+
+    /* FONT SIZE */
+    .fs1, 
+    .fs1 *
+    { font-size: 10px !important; }
+    .fs2, 
+    .fs2 *
+    { font-size: 12px !important; }
+    .fs3, 
+    .fs3 *
+    { font-size: 14px !important; }
+    .fs4, 
+    .fs4 *
+    { font-size: 16px !important; }
+    .fs5, 
+    .fs5 *
+    { font-size: 18px !important; }
+    .fs6, 
+    .fs6 *
+    { font-size: 20px !important; }
+    .fs7, 
+    .fs7 *
+    { font-size: 22px !important; }
+    .fs8, 
+    .fs8 *
+    { font-size: 24px !important; }
+    .fs9, 
+    .fs9 *
+    { font-size: 26px !important; }
+    .fs10, 
+    .fs10 *
+    { font-size: 30px !important; }
+}
+
+@media (min-width: 568px)
+{
+    .t-s-center { text-align: center; }
+    .t-s-left { text-align: left; }
+    .t-s-right { text-align: right; }
+    .t-s-justify { text-align: justify; }
+
+    /* FONT SIZE */
+    .fs1, 
+    .fs1 *
+    { font-size: 10px !important; }
+    .fs2, 
+    .fs2 *
+    { font-size: 12px !important; }
+    .fs3, 
+    .fs3 *
+    { font-size: 14px !important; }
+    .fs4, 
+    .fs4 *
+    { font-size: 16px !important; }
+    .fs5, 
+    .fs5 *
+    { font-size: 18px !important; }
+    .fs6, 
+    .fs6 *
+    { font-size: 20px !important; }
+    .fs7, 
+    .fs7 *
+    { font-size: 24px !important; }
+    .fs8, 
+    .fs8 *
+    { font-size: 26px !important; }
+    .fs9, 
+    .fs9 *
+    { font-size: 28px !important; }
+    .fs10, 
+    .fs10 *
+    { font-size: 32px !important; }
+}
+
+@media (min-width: 768px)
+{
+    .t-m-center { text-align: center; }
+    .t-m-left { text-align: left; }
+    .t-m-right { text-align: right; }
+    .t-m-justify { text-align: justify; }
+
+    /* FONT SIZE */
+    .fs1, 
+    .fs1 *
+    { font-size: 12px !important; }
+    .fs2, 
+    .fs2 *
+    { font-size: 14px !important; }
+    .fs3, 
+    .fs3 *
+    { font-size: 16px !important; }
+    .fs4, 
+    .fs4 *
+    { font-size: 18px !important; }
+    .fs5, 
+    .fs5 *
+    { font-size: 20px !important; }
+    .fs6, 
+    .fs6 *
+    { font-size: 22px !important; }
+    .fs7, 
+    .fs7 *
+    { font-size: 24px !important; }
+    .fs8, 
+    .fs8 *
+    { font-size: 26px !important; }
+    .fs9, 
+    .fs9 *
+    { font-size: 30px !important; }
+    .fs10, 
+    .fs10 *
+    { font-size: 34px !important; }
+}
+
+@media (min-width: 992px)
+{
+    .t-l-center { text-align: center; }
+    .t-l-left { text-align: left; }
+    .t-l-right { text-align: right; }
+    .t-l-justify { text-align: justify; }
+
+    /* FONT SIZE */
+    .fs1, 
+    .fs1 *
+    { font-size: 12px !important; }
+    .fs2, 
+    .fs2 *
+    { font-size: 14px !important; }
+    .fs3, 
+    .fs3 *
+    { font-size: 16px !important; }
+    .fs4, 
+    .fs4 *
+    { font-size: 18px !important; }
+    .fs5, 
+    .fs5 *
+    { font-size: 20px !important; }
+    .fs6, 
+    .fs6 *
+    { font-size: 22px !important; }
+    .fs7, 
+    .fs7 *
+    { font-size: 24px !important; }
+    .fs8, 
+    .fs8 *
+    { font-size: 28px !important; }
+    .fs9, 
+    .fs9 *
+    { font-size: 32px !important; }
+    .fs10, 
+    .fs10 *
+    { font-size: 36px !important; }
+
+}
+
+@media (min-width: 1200px)
+{
+    .t-x-center { text-align: center; }
+    .t-x-left { text-align: left; }
+    .t-x-right { text-align: right; }
+    .t-x-justify { text-align: justify; }
+
+    /* FONT SIZE */
+    .fs1, 
+    .fs1 *
+    { font-size: 12px !important; }
+    .fs2, 
+    .fs2 *
+    { font-size: 14px !important; }
+    .fs3, 
+    .fs3 *
+    { font-size: 16px !important; }
+    .fs4, 
+    .fs4 *
+    { font-size: 18px !important; }
+    .fs5, 
+    .fs5 *
+    { font-size: 20px !important; }
+    .fs6, 
+    .fs6 *
+    { font-size: 22px !important; }
+    .fs7, 
+    .fs7 *
+    { font-size: 26px !important; }
+    .fs8, 
+    .fs8 *
+    { font-size: 30px !important; }
+    .fs9, 
+    .fs9 *
+    { font-size: 34px !important; }
+    .fs10, 
+    .fs10 *
+    { font-size: 38px !important; }
+}
+
+@media (min-width: 1440px)
+{   
+    .t-w-center { text-align: center; }
+    .t-w-left { text-align: left; }
+    .t-w-right { text-align: right; }
+    .t-w-justify { text-align: justify; }
+
+    /* FONT SIZE */
+    .fs1, 
+    .fs1 *
+    { font-size: 12px !important; }
+    .fs2, 
+    .fs2 *
+    { font-size: 14px !important; }
+    .fs3, 
+    .fs3 *
+    { font-size: 16px !important; }
+    .fs4, 
+    .fs4 *
+    { font-size: 18px !important; }
+    .fs5, 
+    .fs5 *
+    { font-size: 22px !important; }
+    .fs6, 
+    .fs6 *
+    { font-size: 24px !important; }
+    .fs7, 
+    .fs7 *
+    { font-size: 28px !important; }
+    .fs8, 
+    .fs8 *
+    { font-size: 32px !important; }
+    .fs9, 
+    .fs9 *
+    { font-size: 36px !important; }
+    .fs10, 
+    .fs10 *
+    { font-size: 40px !important; }
+}
+

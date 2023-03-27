@@ -1,0 +1,25 @@
+/* RESET DEFAULT STYLES */
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    /* font-family: sans-serif; */
+    line-height: 1.4em;
+}
+
+body { background: #fff; }
+
+img, iframe, video, input, textarea
+{ width: 100%; }
+
+textarea { resize: vertical; }
+
+h1, h2, h3, h4, h5, h6 
+{ font-weight: bold; }
+
+p, a, span, label, li, address, time, b, strong, i, em, u, s, q 
+{ font-size: 14px; font-weight: normal; } 

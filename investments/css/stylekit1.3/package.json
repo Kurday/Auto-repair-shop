@@ -1,0 +1,15 @@
+{
+  "name": "stylekit",
+  "version": "1.1.0",
+  "description": "",
+  "main": "build-min.js",
+  "scripts": {
+    "build": "node build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "csso": "^5.0.5"
+  }
+}
