@@ -1,0 +1,398 @@
+.wrapper {
+    max-width: 1245px;
+}
+.header__list{
+    margin-top: 58px;
+}
+.header__list-item{
+    padding-right: 42px;
+    padding-left: 42px;
+    margin-bottom: 57px;
+    &:last-child{
+        margin-top: 220px;
+    }
+}
+
+.food__container{
+    max-width: 1141px;
+    background: #fff;
+    height: 100%;
+    border-radius: 50px;
+}
+.food__content{
+    display: flex;
+    padding-left: 58px;
+    height: 100%;
+    flex: 1 1;
+    overflow: hidden;
+    
+}
+.food__content-main{
+    flex-grow: 1;
+    // padding-right: 58px;
+}
+
+// ********    выезжающий блок справа
+.food__sidebar{
+    flex: 0;
+    height: 100%;
+    width: 0;
+    display: none;
+    border-radius: 0 50px 50px  0px;
+    transition: 1s;
+    z-index: 50;
+    background-color: #EBFFF0;
+    padding-top: 74px;
+    padding-left: 40px;
+}
+
+.active {
+    display: block;
+}
+
+.fade {
+    width: 300px;
+    transition: 1s;
+}
+
+// ********   menu с 3 точками
+
+.food__menu{
+    width: 100%;
+    flex: 1;
+    padding-top: 43px;
+}
+.food__menu a{
+    color: $accentColor;
+    font-size: $fsMedium;
+}
+
+.food__menu-button{
+    margin-right: 48px;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+}
+.dot, .dot::before, .dot::after {
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    border-radius: 20px;
+    background: #ccc;
+}
+.dot {
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.dot::before, .dot::after {
+    content: '';
+}
+.dot::before {
+    right: 10px;
+}
+.dot::after {
+    left: -20px;
+}
+// ***** Слайдер 
+.food__choice{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    overflow: hidden;
+    height: 300px;
+}
+
+.food__choice-button{
+    padding: 13px;
+}
+
+.food__choice-title{
+    padding-right: 58px;
+    font-weight: 400;
+    font-size: 30px;
+    color: $accentColor;
+}
+
+.swiper{
+    margin-top: 40px;
+    min-width: 1000px;
+    height: 230px;
+    position: absolute;
+}
+.swiper-wrapper{
+    position: absolute; 
+    width: 100%;
+    height: 350px;
+}
+.slider__item{
+    margin-top: 50px;
+    margin-right: 31px;
+    width: 200px;
+    height: 131px;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 16px;
+    padding-bottom: 15px;
+}
+.slider__item img {
+    top: -50px;
+    position: absolute;
+    width: 120px;
+    height: 120px;
+}
+
+.slick-track {
+    display: flex;
+    align-items: flex-start;
+    // flex-direction: column;
+}
+.slick-list{
+    overflow: hidden;
+}
+
+
+
+// контейнер для заголовков
+.slider__title{
+    width: 100%;
+    padding: 0 20px;
+    font-weight: bold;
+}
+
+.slider__title-subtitle{
+    font-size: 11px;
+    color: #A5A5A5;
+    font-weight: 400;
+}
+
+// секция Food__mealPlan
+.meal__title{
+    font-size: $fsMediumHight;
+    padding-right: 58px;
+}
+.meal__title-button{
+    padding: 10px 13px;
+}
+.meal__day{
+    margin-right: 58px; 
+    margin-top: 24px;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 16px;
+    color: $fcDarkGreey;
+}
+.meal__weaks-item{
+    // padding: 15px 43px;
+    // background-color: #FAFAFA;
+    background-color: $fcLightGreey;
+    flex-grow: 1;
+    border: 1px solid #fff;
+    text-align: center;
+    padding: 15px 0;
+    transition: 0.5s;
+    &:focus, &:hover, &:active {
+        color: $fcBlue;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    &:first-child{
+        border-radius: 16px 0 0 0;
+    }
+    &:last-child{
+        border-radius: 0 16px 0 0;
+    }
+}
+
+.meal__days{
+    background-color: $fcLightGreey;
+    border-radius: 0 0px 16px 16px;
+    padding: 15px 0;
+    border: 1px solid #fff;
+}
+
+.meal__days-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+    transition: 0.5s;
+    &:focus, &:hover, &:active {
+        color: $fcBlue;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    
+}
+
+.meal__dinner{
+    padding-right: 58px;
+    padding-bottom: 47px;
+    margin-top: 23px;
+
+}
+
+.meal__dinner-item{
+    position: relative;
+    border-radius: 16px;
+    height: 215px;
+    flex-grow: 1;
+    // width: 167px;
+    padding: 22px;
+    background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 62.33%);
+    background-image: url(../img/dinner1.png);
+    background-size: cover;
+    margin-right: 23px;
+    overflow: hidden;
+    &:nth-child(2){
+        background-image: url(../img/dinner2.png);
+    }
+    &:nth-child(3){
+        background-image: url(../img/dinner3.png);
+    }
+    &:nth-child(4){
+        background-image: url(../img/dinner4.png);
+    }
+    &:last-child{
+        margin-right: 0;  
+    }
+    &::after{
+        content: '';
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 62.33%);
+        z-index: 2;
+    }
+}
+
+.item__title{
+    color: $fcDarkGreey2;
+
+}
+.item__title-title{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: $fsMini;
+    font-weight: 600;
+    z-index: 3;
+}
+.item__subtitle{
+    color: $fcWhite;
+    font-size: $fsMiniUp;
+    line-height: 17px;
+    z-index: 3;
+}
+
+// Правый блок с настройками
+.fast-access__title{
+    color: #008F6E;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    position: relative;
+}
+.arrow{
+    &::after {
+        content: ' ';
+        background-image: url(../img/icon/arrow.png);
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        margin-left: 10px;
+        margin-top: 3px;
+    }
+}
+.fast-access__items{
+   
+}
+.item-access{
+    margin-top: 25px;
+}
+.item-access__icon{
+    background: #EFF7FF;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    box-shadow: -10px -10px 30px #FFFFFF, 10px 10px 30px rgba(174, 174, 192, 0.4);
+    border-radius: 16px;
+}
+.item-access__icon-add{
+    border: 1px dashed #AED5B7;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.item-access__title{
+    padding: 20px 20px;
+    line-height: 17px;
+}
+
+.item-access__title span{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.item-access__title-caption{
+    color: #000000;
+}
+
+.item-access__title-subtitle{
+    letter-spacing: 0.01em;
+    color: #565656;
+}
+
+// три девайса 
+.devices{
+    margin-top: 50px;
+    padding-right: 34px;
+}
+.devices__title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.devices__items{
+    margin-top: 20px;
+}
+.devices__item{
+    margin-right: 15px;
+    width: 65px;
+    height: 65px;
+    background: #EFF7FF;
+    box-shadow: -9.28572px -9.28572px 27.8571px #FFFFFF, 9.28572px 9.28572px 27.8571px rgba(174, 174, 192, 0.4);
+    border-radius: 14.8571px;
+}
+.devices__item-plus{
+    border: 1px dashed #AED5B7;
+    width: 65px;
+    height: 65px;
+    border-radius: 14.8571px;
+}
+
+.ingredients{
+    margin-top: 35px;
+}
+.ingredients__title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
+.timer{
+    margin-top: 35px;
+}
+.timer__title{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+}
