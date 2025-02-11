@@ -1,0 +1,125 @@
+/* RESET DEFAULT STYLES */
+:root 
+{
+    
+    --accent-color: rgba(237, 145, 33, 1);
+    --accent-color-hover: rgb(234, 182, 118);
+
+    --p-color: #07d;
+    --p-hover: #08e;
+
+    --s-color: #888;
+    --s-hover: #999;
+
+    --t-color: #308;
+    --t-hover: #50b;
+
+    --w-color: rgba(255, 255, 255, 1);
+    --w-hover: #eee;
+    --w2-color: rgba(212, 212, 212, 1);
+
+    --b-color: rgba(0, 0, 0, 1);
+    --b-hover: #222;
+
+    --d-color: rgba(0, 0, 0, 1);
+    --d-hover: #444;
+
+    --d2-color: rgba(0, 0, 0, 0.6);
+
+    --l-color: rgba(0, 0, 0, 0.6);
+    --l-hover: #fafafa;
+
+    --g-color: rgba(244, 244, 244, 1);
+    --g-hover: #6b0;
+
+    --g2-color: rgba(235, 235, 235, 1);
+    --g2-2-color: rgba(236, 236, 236, 1);
+    --g2-3-color: rgba(0, 0, 0, 0.5);
+    
+    --g3-color: rgba(47, 47, 47, 1);
+    --g4-color: rgba(33, 33, 33, 1);
+    --g5-color: rgba(76, 76, 76);
+
+
+    
+    
+
+
+
+    --r-color: #a20;
+    --r-hover: #c20;
+
+    /* text */
+    --white-t-09: rgba(255, 255, 255, 0.9);
+    --white-t-1: rgba(255, 255, 255, 1);
+    /* background */
+    --bac-white-0: rgba(255, 255, 255, 1);
+    --bac-white-1: rgba(244, 244, 244, 1);
+    --bac-darkgray-1: rgba(235, 235, 235, 1);
+    --bac-darkgray-2: rgba(47, 47, 47, 1);
+    
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: 'EuclidCircularA', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.4em;
+}
+
+
+*::-webkit-scrollbar
+{
+    /* width: 6px;
+    height: 6px;
+    background: transparent; */
+}
+
+*::-webkit-scrollbar-thumb
+{
+    /* width: 6px;
+    border-radius: 6px;
+    background: var(--d-hover); */
+}
+
+body 
+{
+    background: var(--w-color);
+    font-family: 'EuclidCircularA', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+img, iframe, video, input, textarea
+{ width: 100%; }
+
+textarea { resize: vertical; }
+
+h1, h2, h3, h4, h5, h6 
+{ 
+    font-family: 'EuclidCircularA', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+p, a, span, label, li, address, time, b, strong, i, em, u, s, q 
+{
+    font-size: 14px; font-weight: normal; 
+    font-family: 'EuclidCircularA', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+} 
+
+.pos-r 
+{
+    position: relative;
+}

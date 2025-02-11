@@ -1,0 +1,148 @@
+<section class="culc bg-g4 pt45 t-white">
+    <div class="container">
+        <div class="culc__title t-center">
+            <h2 class="t-upper fs-4226">Онлайн калькулятор</h2>
+            <span class="fs-2016 ">Введите данные для предварительного<br class="disp-s-n"> расчета стоимости заказа <br class="disp-n fx-s"> услуги<br class="disp-s-n"> «Грузчики» и получите скидку<br class="disp-s-n">  <span class="text-accent px10 pt5 pb5">до 10%</span>   на первый заказ.</span>
+        </div>
+
+        <div class=" mt40">
+            <div class="culc__tabs fx f-c">
+                <div class=" fx-n f-sb w50">
+                    <span> <a href="#">Грузчики</a> </span>
+                    <span> <a href="#">Такелаж</a> </span>
+                    <span> <a href="#">Переезд</a> </span>
+                    <span> <a href="#">Разнорабочие</a> </span>
+                </div>
+                    
+            </div>
+            <div class="culc__result fx f-sb br mt20">
+
+                <!-- первй блок -->
+                <div class="w100 w-s49 w-x33 fx f-sb border-r br t-black py20 pl20 pr25 ">
+                    <!-- левый край -->
+                    <div class="fx f-c f-col br ">
+                        <span class="fs115">Грузчики</span>
+                        <div class="fx f-sa f-c f-m mt5">
+                            <i class="icon-img "><img src="./img/culc-person.svg" alt=""></i>
+                            <span class="">2</span>
+                        </div>
+                    </div>
+
+                    <!-- правый край -->
+                     <div class="fx f-col ">
+                        <i class="icon-img2 border-r bg-g2-2 fx f-c f-m "><img src="./img/culc-plus.svg" alt=""></i>
+                        <i class="icon-img2 border-r bg-g2-2 mt5 fx f-c f-m"><img src="./img/culc-minus.svg" alt=""></i>
+                     </div>
+                </div>
+
+                 <!-- второй блок -->
+                 <div class="w100 w-s49 w-x33 mt-s0 fx f-sb border-r   br t-black py20 pl20 pr25 mt10">
+                    <!-- левый край -->
+                    <div class="fx f-c f-col br ">
+                        <span class="fs115">Грузчики</span>
+                        <div class="fx f-sa f-c f-m mt5">
+                            <i class="icon-img "><img src="./img/culc-person.svg" alt=""></i>
+                            <span class="">2</span>
+                        </div>
+                    </div>
+
+                    <!-- правый край -->
+                     <div class="fx f-col ">
+                        <i class="icon-img2 border-r bg-g2-2 fx f-c f-m "><img src="./img/culc-plus.svg" alt=""></i>
+                        <i class="icon-img2 border-r bg-g2-2 mt5 fx f-c f-m"><img src="./img/culc-minus.svg" alt=""></i>
+                     </div>
+                </div>
+
+                 <!-- третий блок -->
+                 <div class="w100 w-s49 w-x33 fx f-sb border-r   br t-black py20 pl20 pr25 mt10 mt-x0">
+                    <!-- левый край -->
+                    <div class="fx f-c f-col br ">
+                        <span class="fs115">Грузчики</span>
+                        <div class="fx f-sa f-c f-m mt5">
+                            <i class="icon-img "><img src="./img/culc-person.svg" alt=""></i>
+                            <span class="">2</span>
+                        </div>
+                    </div>
+
+                    <!-- правый край -->
+                     <div class="fx f-col ">
+                        <i class="icon-img2 border-r bg-g2-2 fx f-c f-m "><img src="./img/culc-plus.svg" alt=""></i>
+                        <i class="icon-img2 border-r bg-g2-2 mt5 fx f-c f-m"><img src="./img/culc-minus.svg" alt=""></i>
+                     </div>
+                </div>
+
+
+
+
+
+                <!-- первй блок -->
+                <div class="w100 w-s49 w-x33 fx f-sb border-r br t-black py20 pl20 pr25 ">
+                    <!-- левый край -->
+                    <div class="fx f-c f-col br ">
+                        <span class="fs115">Грузчики</span>
+                        <div class="fx f-sa f-c f-m mt5">
+                            <i class="icon-img "><img src="./img/culc-person.svg" alt=""></i>
+                            <span class="">2</span>
+                        </div>
+                    </div>
+
+                    <!-- правый край -->
+                     <div class="fx f-col ">
+                        <i class="icon-img2 border-r bg-g2-2 fx f-c f-m "><img src="./img/culc-plus.svg" alt=""></i>
+                        <i class="icon-img2 border-r bg-g2-2 mt5 fx f-c f-m"><img src="./img/culc-minus.svg" alt=""></i>
+                     </div>
+                </div>
+
+                 <!-- второй блок -->
+                 <div class="w100 w-s49 w-x33 mt-s0 fx f-sb border-r   br t-black py20 pl20 pr25 mt10">
+                    <!-- левый край -->
+                    <div class="fx f-c f-col br ">
+                        <span class="fs115">Грузчики</span>
+                        <div class="fx f-sa f-c f-m mt5">
+                            <i class="icon-img "><img src="./img/culc-person.svg" alt=""></i>
+                            <span class="">2</span>
+                        </div>
+                    </div>
+
+                    <!-- правый край -->
+                     <div class="fx f-col ">
+                        <i class="icon-img2 border-r bg-g2-2 fx f-c f-m "><img src="./img/culc-plus.svg" alt=""></i>
+                        <i class="icon-img2 border-r bg-g2-2 mt5 fx f-c f-m"><img src="./img/culc-minus.svg" alt=""></i>
+                     </div>
+                </div>
+
+                 <!-- третий блок -->
+                 <div class="w100 w-s49 w-x33 fx f-sb border-r   br t-black py20 pl20 pr25 mt10 mt-x0">
+                    <!-- левый край -->
+                    <div class="fx f-c f-col br ">
+                        <span class="fs115">Грузчики</span>
+                        <div class="fx f-sa f-c f-m mt5">
+                            <i class="icon-img "><img src="./img/culc-person.svg" alt=""></i>
+                            <span class="">2</span>
+                        </div>
+                    </div>
+
+                    <!-- правый край -->
+                     <div class="fx f-col ">
+                        <i class="icon-img2 border-r bg-g2-2 fx f-c f-m "><img src="./img/culc-plus.svg" alt=""></i>
+                        <i class="icon-img2 border-r bg-g2-2 mt5 fx f-c f-m"><img src="./img/culc-minus.svg" alt=""></i>
+                     </div>
+                </div>
+
+                
+
+                
+
+              
+
+
+         
+
+             
+
+                
+            </div>
+        </div>
+
+    </div>
+</section>

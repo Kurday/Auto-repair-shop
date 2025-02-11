@@ -1,0 +1,681 @@
+.bg { background: rgba(0,0,0, .25); }
+.bg-w { background: rgba(255,255,255, .25); }
+
+.bg-stylized
+{
+    background-image: url("../img/culc_bacground.png")!important;
+    background-size: cover; /* Покрывает всю область без искажений */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Запрещает повторение изображения */
+    color: var(--d-color)!important;
+}
+
+
+
+
+/* BUTTONS */
+/* BUTTONS */
+/* BUTTONS */
+/* BUTTONS */
+/* BUTTONS */
+
+
+
+
+.btn-dark 
+{
+    border-radius: 20px;
+    width: fit-content;
+}
+
+.default-controls 
+{
+    display: flex;
+    justify-content: space-between; /* Распределение кнопок */
+    align-items: center;
+    width: 110px; /* Ширина контейнера совпадает с шириной слайдера */
+    height: auto; 
+    margin: 20px auto 0; /* Центрирование по горизонтали и отступ сверху */
+    position: relative;
+    margin-top: 60px;
+}
+  
+.default-next, .default-prev 
+{
+    width: 40px!important;
+    height: 40px!important;
+    cursor: pointer;
+    border-radius: 50%;
+    border: 2px solid var(--g2-color);
+    position: relative;
+    background: none;
+}
+
+
+  
+.default-next::after, .default-prev::after 
+{
+    content: ' '!important;
+    display: block;
+    width: 24px; /* Ширина вашей SVG иконки */
+    height: 24px; /* Высота вашей SVG иконки */
+    background: url('../img/reviews-arrow.svg') no-repeat center center !important;
+    background-size: contain; /* Масштабирование для полного отображения иконки */
+    position: absolute; /* Позиционирование */
+    top: 50%; /* Центрирование по вертикали */
+    left: 50%; /* Центрирование по горизонтали (если нужно) */
+}
+  
+.default-next::after
+{
+    transform: translate(-50%, -50%) scaleX(1); /* Центрирование и переворот */
+}
+
+.default-prev::after
+{
+    transform: translate(-50%, -50%) scaleX(-1); /* Центрирование и переворот */
+}
+
+
+
+
+
+
+/* LINES */
+/* LINES */
+/* LINES */
+/* LINES */
+/* LINES */
+/* LINES */
+
+
+
+
+
+
+
+.border-r 
+{
+    border-radius: 20px;
+}
+
+.border-circle 
+{
+    border-radius: 50%;
+}
+
+
+
+.border 
+{
+    border: 1px solid var(--accent-color);
+}
+
+.tn,
+.tn * 
+{
+    transition: .4s;
+}
+
+hr 
+{
+    width: 98%;
+    height: 1px;
+    background: #ccc;
+    margin: 15px auto;
+}
+
+.hr-light
+{
+    background: var(--l-color);
+    opacity: .8;
+}
+
+.hr-dark
+{
+    background: var(--d-color);
+    opacity: .8;
+}
+
+
+
+
+
+
+/* TEXT */
+
+
+
+
+
+
+.s-title 
+{
+    font-size: clamp(22px, 0.9659rem + 1.6455vw, 40px);
+}
+
+.sb-title
+{
+    font-size: clamp(18px, 0.8068rem + 1.5909vw, 32px);
+}
+
+.slogan 
+{
+    font-size: clamp(14px, 0.7841rem + 0.4545vw, 18px);
+}
+
+.text-accent
+{
+    background-color: var(--accent-color);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+/* FIGURE */
+
+
+
+
+
+.rect
+{
+    width: 100%;
+    background: var(--l-color);
+    aspect-ratio: 1;
+}
+
+.rect-v
+{
+    width: 100%;
+    background: var(--l-color);
+    aspect-ratio: 1 / 2;
+}
+
+.rect-h
+{
+    width: 100%;
+    background: var(--l-color);
+    aspect-ratio: 2 / 1;
+}
+
+.rect-slide 
+{
+    width: 100%;
+    aspect-ratio: 2.8 / 1;
+}
+
+.rect-category
+{
+    width: 100%;
+    aspect-ratio: 15 / 9;
+}
+
+.rounded
+{
+    border-radius: 50%;
+}
+
+
+
+
+
+
+/* SCROLL */
+
+
+
+
+
+
+.scroll-v
+{
+    width: 100%;
+    height: 400px;
+    overflow-y: auto;
+}
+
+.scroll-v::-webkit-scrollbar
+{
+    /* width: 6px;
+    height: 6px;
+    background: transparent; */
+}
+
+.scroll-v::-webkit-scrollbar-thumb
+{
+    /* width: 6px;
+    border-radius: 6px;
+    background: var(--d-hover); */
+}
+
+.scroll-h
+{
+    width: 100%;
+    min-width: 320px;
+    overflow-x: auto;
+}
+
+.scroll-h::-webkit-scrollbar
+{
+    /* width: 6px;
+    height: 6px;
+    background: transparent; */
+}
+
+.scroll-h::-webkit-scrollbar-thumb
+{
+    /* width: 6px;
+    border-radius: 6px;
+    background: var(--d-hover); */
+}
+
+
+
+
+
+
+/* ARTICLE */
+
+
+
+
+
+
+.article 
+{ 
+    width: 100%; 
+    /* min-width: 220px;  */
+    min-height: 100px; 
+    background: var(--w-color); 
+    position: relative; 
+}
+.article-body 
+{ 
+    padding: 18px; 
+    width: inherit; 
+    min-height: inherit; 
+}
+.article-img 
+{ 
+    width: 100%; 
+    min-height: 160px; 
+    object-fit: cover; 
+}
+.article-icon 
+{ 
+    width: 35px; 
+    height: 35px; 
+    object-fit: contain; 
+}
+.article-title 
+{ 
+    font-size: clamp(14px, 0.7841rem + 0.4545vw, 18px); 
+    font-weight: bold; 
+}
+.article-params 
+{ 
+    font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px); 
+    font-weight: bold; 
+}
+.article-text 
+{ 
+    font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px); 
+}
+.article-link 
+{ 
+    font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px); 
+}
+.article-link:hover 
+{ 
+    text-decoration: underline; 
+}
+.article-overlay 
+{ 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(0,0,0, .7); 
+    position: absolute; top: 0; left: 0; 
+}
+
+
+
+
+
+
+/* TABLE */
+
+
+
+
+
+.table
+{
+    background: var(--w-color);
+    padding: 10px;
+}
+
+table, th, td 
+{ 
+    border-collapse: collapse; 
+    border: 1px solid var(--b-color); 
+    background: var(--w-color); 
+}
+table 
+{ 
+    width: 100%; 
+}
+th, td 
+{ 
+    padding: 12px 18px; 
+}
+th 
+{ 
+    font-size: 14px; 
+}
+td 
+{ 
+    font-size: 14px; 
+} 
+
+
+
+
+
+
+/* FORM */
+
+
+
+
+
+
+.frame 
+{
+    padding: 15px;
+    background: var(--l-color);
+    border: 1px solid transparent;
+}
+
+.form-area 
+{ 
+    padding: 15px 0; 
+}
+
+.form-label
+{
+    font-size: 14px;
+    color: var(--s-color); ;
+    display: block;
+    margin: 5px 0;
+}
+
+.form-input 
+{
+    width: 100%; /* Занимает всю ширину родителя */
+    padding: 10px 15px; /* Внутренние отступы */
+    border: 1px solid #ccc; /* Светло-серый цвет рамки */
+    border-radius: 20px; /* Сглаженные углы */
+    box-sizing: border-box; /* Учитываем padding в ширине */
+    outline: none; /* Убираем стандартное выделение */
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Плавный переход для эффектов */
+}
+
+/* Эффект при наведении */
+.form-input:hover 
+{
+    border-color: #888; /* Темнее наводка */
+}
+  
+  /* Эффект при фокусе */
+.form-input:focus 
+{
+    border-color: #007bff; /* Синий цвет при фокусе */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Подсветка тени */
+}
+  
+  /* Стили для disabled (неактивного) состояния */
+.form-input:disabled 
+{
+    background-color: #f5f5f5; /* Светло-серый фон */
+    border-color: #ddd; /* Светлая рамка */
+    cursor: not-allowed; /* Указатель запрещения */
+    color: #999; /* Меняем цвет текста */
+}
+  
+  /* Стили для ошибки */
+.form-input.error 
+{
+    border-color: #dc3545; /* Красный цвет рамки */
+    background-color: #f8d7da; /* Светло-красный фон */
+    color: #721c24; /* Темный красный текст */
+}
+
+textarea.form-input 
+{
+    min-height: 100px;
+    resize: none;
+}
+
+
+
+
+
+
+/* BUTTONS */
+
+
+
+
+
+
+.btn 
+{
+    padding: 15px 25px;
+    /* border: 2px solid transparent; */
+    /* font-size: 16px; */
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.btn2
+{
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 30px;
+    font-weight: 600;
+}
+
+.btn2:active 
+{
+    background-color: var(--accent-color-hover); /* Цвет при нажатии */
+    transform: scale(0.95); /* Небольшое уменьшение размера */
+    color: white;
+}
+
+.btnActive 
+{
+    background-color: var(--accent-color);
+    color: white;
+   
+  
+}
+
+.btn-accent
+{
+    background: rgba(237, 145, 33, 1);
+    color: white;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 50px;
+}
+
+.btn-push
+{
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+    padding: 15px 25px;
+    cursor: pointer;
+    width: fit-content;
+    border-radius: 50px;
+    background: transparent;
+}
+
+.btn-push:hover
+{
+    background-color: var(--accent-color);
+    transition: 0.3s;
+    color: white;
+}
+
+.btn-primary
+{
+    background: var(--p-color);
+}
+
+.btn-primary:hover 
+{
+    background: var(--p-hover);
+}
+
+.btn-success
+{
+    background: var(--g-color);
+}
+
+.btn-success:hover 
+{
+    background: var(--g-hover);
+}
+
+.btn-err
+{
+    background: var(--r-color);
+}
+
+.btn-err:hover 
+{
+    background: var(--r-hover);
+}
+
+.btn-light
+{
+    background: var(--btn-color-light);
+    color: white;
+}
+
+.btn-light:hover 
+{
+    background: var(--l-hover);
+}
+
+.btn-dark
+{
+    background: var(--btn-color-dark);
+    color: white;
+}
+
+.btn-dark:hover 
+{
+    background: var(--d-color);
+    color: var(--w-color);
+}
+
+.icon 
+{
+    font-size: 24px;
+}
+
+.icon-min
+{
+    font-size: 16px;
+}
+
+.icon-img 
+{
+    width: 25px;
+    height: 25px;
+    /* height: 50px; */
+    object-fit: contain;
+}
+
+.icon-img2
+{
+    width: 33px;
+    height: 33px;
+    /* height: 50px; */
+    object-fit: contain;
+}
+
+.icon-img2 img
+{
+    width: 15px;
+    height: auto;
+}
+
+.icon-text img
+{
+    width: 64px;
+    height: 64px;
+}
+
+
+@media (min-width: 0px)
+{
+    .icon-text img
+    {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 280px)
+{
+    .section { padding: 30px 0; }
+
+    .article-body
+    {
+        padding: 5px;
+    }
+
+    
+}
+
+@media (min-width: 568px)
+{
+    .article-body
+    {
+        padding: 18px;
+    }
+
+    .icon-text img
+    {
+        width: 45px;
+        height: 45px;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .icon-text img
+    {
+        width: 64px;
+        height: 64px;
+    }
+}
+
+@media (min-width: 992px)
+{
+    .section { padding: 50px 0; }   
+}
+
+@media (min-width: 1200px)
+{
+  
+}

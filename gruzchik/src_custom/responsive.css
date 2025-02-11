@@ -1,0 +1,58 @@
+@media (max-width: 1439px)
+{
+
+}
+
+@media (max-width: 1199px)
+{
+    
+}
+
+@media (max-width: 991px)
+{
+
+    .h-nav nav 
+    {
+        position: fixed;
+        top: 0; left: 0;
+        width: 35%;
+        height: 100%;
+        background: var(--d-color);
+
+        transform: translateX(-100%);
+
+        z-index: 99;
+    }
+
+    .h-nav nav.nav-visible 
+    {
+        transform: translateX(0);
+    }
+
+    .h-nav nav .nav-link 
+    {
+        color: var(--w-color) !important;
+    }
+
+    .h-nav nav .nav-link:hover 
+    {
+        background: var(--l-color);
+        color: var(--d-color) !important;
+    }
+}
+
+@media (max-width: 767px)
+{
+    .h-nav nav 
+    {
+        width: 50%;
+    }
+}
+
+@media (max-width: 567px)
+{
+    .h-nav nav 
+    {
+        width: 80%;
+    }
+}

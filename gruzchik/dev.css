@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css';
+
+/** CORE FILES */
+@import 'src/_base.css';
+@import 'src/display.css';
+@import 'src/flex.css';
+@import 'src/layout.css';
+@import 'src/sizing.css';
+@import 'src/spacing.css';
+@import 'src/text.css';
+@import 'src/colors.css';
+@import 'src/ui.css';
+
+/** CUSTOM FILES */
+@import 'src_custom/custom.css';
+@import 'src_custom/responsive.css';

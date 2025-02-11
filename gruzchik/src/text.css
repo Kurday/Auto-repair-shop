@@ -1,0 +1,354 @@
+/* TEXT ALIGN */
+.t-center { text-align: center; }
+.t-left { text-align: left; }
+.t-right { text-align: right; }
+.t-justify { text-align: justify; }
+.t-nowrap { white-space: nowrap; }
+    
+
+
+/* TEXT DECORATION */
+.t-none, 
+.t-none *
+{ text-decoration: none; }
+.t-under, 
+.t-under *
+{ text-decoration: underline;
+    text-underline-offset: 5px; 
+}
+.t-over, 
+.t-over *
+{ text-decoration: overline; }
+.t-strike, 
+.t-strike *
+{ text-decoration: line-through; }
+
+/* TEXT TRANSFORM */
+.t-normal, 
+.t-normal * 
+{ text-transform: none; }
+.t-upper, 
+.t-upper *
+{ text-transform: uppercase; }
+.t-lower, 
+.t-lower *
+{ text-transform: lowercase; }
+.t-capit, 
+.t-capit *
+{ text-transform: capitalize; }
+
+/* FONT STYLE */
+.fs-normal, 
+.fs-normal *
+{ font-style: normal; }
+.fs-italic, 
+.fs-italic *
+{ font-style: italic; }
+.fs-obl, 
+.fs-obl *
+{ font-style: oblique; }
+
+/* FONT WEIGHT */
+.fw-light, 
+.fw-light *
+{ font-weight: lighter; }
+.fw-normal, 
+.fw-normal *
+{ font-weight: normal; }
+.fw-bold, 
+.fw-bold *
+{ font-weight: bold; }
+.fw100, 
+.fw100 *
+{ font-weight: 100; }
+.fw200, 
+.fw200 *
+{ font-weight: 200; }
+.fw300, 
+.fw300 *
+{ font-weight: 300; }
+.fw400, 
+.fw400 *
+{ font-weight: 400; }
+.fw500, 
+.fw500 *
+{ font-weight: 500; }
+.fw600, 
+.fw600 *
+{ font-weight: 600; }
+.fw700, 
+.fw700 *
+{ font-weight: 700; }
+.fw800, 
+.fw800 *
+{ font-weight: 800; }
+.fw900, 
+.fw900 *
+{ font-weight: 900; }
+
+
+.fs0,
+.fs0 * {
+    font-size: clamp(31px, 0.2857rem + 1.4286vw, 50px) !important;
+}
+.fs1, 
+.fs1 *
+{ font-size: clamp(24px, 0.9545rem + 2.7273vw, 50px) !important; }
+.fs2, 
+.fs2 *
+{ font-size: clamp(22px, 0.875rem + 2.5vw, 44px) !important; }
+.fs3, 
+.fs3 *
+{ font-size: clamp(20px, 0.875rem + 2.5vw, 40px) !important; }
+.fs4, 
+.fs4 *
+{ font-size: clamp(20px, 0.8864rem + 1.8182vw, 36px) !important; }
+.fs5, 
+.fs5 *
+{ font-size: clamp(18px, 0.8068rem + 1.5909vw, 32px) !important; }
+.fs6, 
+.fs6 *
+{ font-size: clamp(16px, 0.7273rem + 1.3636vw, 28px) !important; }
+.fs7, 
+.fs7 *
+{ font-size: clamp(16px, 0.8182rem + 0.9091vw, 24px) !important; }
+.fs8, 
+.fs8 *
+{ font-size: clamp(14px, 0.7386rem + 0.6818vw, 20px) !important; }
+.fs9, 
+.fs9 *
+{ font-size: clamp(14px, 0.7841rem + 0.4545vw, 18px) !important; }
+.fs10, 
+.fs10 *
+{ font-size: clamp(14px, 0.8295rem + 0.2273vw, 16px) !important; }
+.fs11, 
+.fs11 *
+{ font-size: clamp(12px, 0.6591rem + 0.4545vw, 16px) !important; }
+.fs115, 
+.fs115 * {
+    font-size: clamp(13px, 0.6932rem + 0.3182vw, 15px) !important;
+}
+.fs12, 
+.fs12 *
+{ font-size: clamp(12px, 0.7045rem + 0.2273vw, 14px) !important; }
+
+.fs13,
+.fs13 * {
+    font-size: clamp(10px, 0.6591rem + 0.2273vw, 12px) !important;
+}
+.fs14,
+.fs14 * 
+{
+    font-size: clamp(10px, 0.6364rem + 0.1136vw, 11px) !important;
+} */
+
+/* 375 - 1600px
+
+header
+1) 14px - 14px меню
+2) 14px - 16px почта
+3) 12px - 12px почта2
+4) 14px - 16px телефон
+4) 12px - 14px кнопка 
+
+
+
+title 
+1600px - 375px
+1) 50px - 32px
+2) 32px - 20px
+3) 42px - 26px
+
+
+subtitle
+1) 16px - 16px
+2) 24px - 16px
+3) 20px - 16px
+
+
+
+Преимущества 
+1) 20px - 13px
+
+Цены 
+1) 16px - 14px услуга
+2) 24px - 14px  цена
+3) 14px - 14px  кнопка
+4) 16px - 16px кнопка результат
+
+Калькулятор
+1) 16px - 16px
+
+Отзывы 
+1) 16px - 16px
+2) 16px - 13px
+
+
+/* Базовые стили для 1600px и меньше */
+/* vw — это "ширина экрана в процентах". Если экран шириной 1000px, то 1vw = 10px. */
+/* В формуле есть прибавка (1.142857px) и умножение на экранную ширину (1.785714vw), чтобы размер увеличивался плавно. */
+.fs-1414 {
+    font-size: 14px;
+}
+
+.fs-3232{
+    font-size: clamp(31px, 2rem + 0vw, 2rem);
+}
+
+.fs-1416 {
+    font-size: 14px;
+}
+
+.fs-1212 {
+    font-size: 12px;
+}
+
+.fs-1214 {
+    font-size: 12px;
+}
+
+.fs-5032 {
+    font-size: clamp(1.9375rem, 1.574rem + 1.551vw, 3.125rem);
+}
+
+.fs-3220 {
+    font-size: clamp(1.25rem, 1.0204rem + 0.9796vw, 2rem);
+}
+
+.fs-3226 
+{
+    font-size: clamp(1.625rem, 1.25rem + 1.5vw, 2rem);
+}
+
+.fs-4226 {
+    font-size: clamp(26px, 2.6vw, 42px);
+}
+
+.fs-1616 {
+    font-size: 16px;
+}
+
+.fs-2416 {
+    font-size: clamp(1rem, 0.8469rem + 0.6531vw, 1.5rem);
+}
+
+.fs-2016 {
+    font-size: clamp(16px, 1.25vw, 20px);
+}
+
+.fs-2013 {
+    font-size: clamp(0.8125rem, 0.6786rem + 0.5714vw, 1.25rem);
+}
+
+.fs-1614 {
+    font-size: clamp(14px, 1.2vw, 16px);
+}
+
+.fs-2414 {
+    font-size: clamp(14px, 1.5vw, 24px);
+}
+
+.lh-16{
+    line-height: 16.48px;
+}
+
+/* Промежуточные значения */
+@media (min-width: 0px) {
+  
+}
+
+@media (min-width: 357px) {
+
+}
+
+@media (min-width: 568px) {
+    .fw-s600 { font-weight: 600;}
+}
+
+@media (min-width: 768px) {
+    .t-m-right { text-align: right; }
+    .t-m-left { text-align: left; }
+    .t-m-normal {text-transform: none;}
+}
+
+@media (min-width: 992px) {
+    
+}
+
+@media (min-width: 1200px) {
+    
+}
+
+@media (min-width: 1400px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 568px)
+{
+    .t-s-center { text-align: center; }
+    .t-s-left { text-align: left; }
+    .t-s-right { text-align: right; }
+    .t-s-justify { text-align: justify; }
+}
+
+@media (min-width: 768px)
+{
+    .t-m-center { text-align: center; }
+    .t-m-left { text-align: left; }
+    .t-m-right { text-align: right; }
+    .t-m-justify { text-align: justify; }
+}
+
+
+
+@media (min-width: 992px)
+{
+    .t-l-center { text-align: center; }
+    .t-l-left { text-align: left; }
+    .t-l-right { text-align: right; }
+    .t-l-justify { text-align: justify; }
+
+}
+
+
+@media (min-width: 1200px)
+{
+    .t-x-center { text-align: center; }
+    .t-x-left { text-align: left; }
+    .t-x-right { text-align: right; }
+    .t-x-justify { text-align: justify; }
+}
+
+@media (min-width: 1440px)
+{   
+    .t-w-center { text-align: center; }
+    .t-w-left { text-align: left; }
+    .t-w-right { text-align: right; }
+    .t-w-justify { text-align: justify; }
+}
+

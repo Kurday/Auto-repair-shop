@@ -1,0 +1,7 @@
+{
+    "gigacode.common.useProjectContextWithOpenTabsPriority": true,
+    "gigacode.cloudIdentify": false,
+    "gigacode.common.wholeLineReplacement": true,
+    "gigacode.lookupPriority": true,
+    "gigacode.common.useProjectContext": true
+}
