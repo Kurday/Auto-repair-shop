@@ -2,7 +2,7 @@
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css';
 
 /** CORE FILES */
-@import 'src/_base.css';
+@import 'src/base.css';
 @import 'src/display.css';
 @import 'src/flex.css';
 @import 'src/layout.css';
