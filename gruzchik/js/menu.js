@@ -9,7 +9,7 @@ const menuHTML = `
     <p class="fs14">Меню</p>
 
     <div class="menu__burger_min fx f-s" id="menu-min">
-      
+      <div class="container">
 
       <div class="menu-close" id="menu-close">
         <span></span>  
@@ -17,11 +17,106 @@ const menuHTML = `
       </div>      
   
       
-    
+      <ul class="fx f-col t-white  mt100 t-upper g20">
+
+        <li class="menu-burger-item fx f-col ">
+            <span class="fx f-sb ">грузчики <i class="icon-img2  t-white"><img class="menu__item_btn" src="./img/arrow.svg" alt=""></i>   </span>
+            <ul class="menu-burger-item-content ml20 fx g20  ">
+                <div class="fx f-col g20 mt20">
+                  <li class=""><a href="#about">Подъем/спуск на этаж</a></li>
+                  <li><a href="#services">Стоимость грузчиков</a></li>
+                  <li><a href="#contact">Вывоз мусора/материалов</a></li>
+                  <li><a href="#contact">Грузчики на производство</a></li>
+                  <li><a href="#contact">Грузчики на разовую работу</a></li>
+                  <li><a href="#contact">Грузчики на погрузочно-разгрузочные работы</a></li>
+                </div>
+                
+            </ul>
+        </li>
+
+        <li class="menu-burger-item fx f-col">
+            <span class="fx f-sb ">офисный переезд <i class="icon-img2  t-white"><img class="menu__item_btn" src="./img/arrow.svg" alt=""></i></span>
+            <ul class="menu-burger-item-content ml20 fx g20   ">
+              <div class="fx g20 mt20">
+                <li><a href="#about">Подъем/спуск на этаж</a></li>
+                <li><a href="#services">Стоимость грузчиков</a></li>
+                <li><a href="#contact">Вывоз мусора/материалов</a></li>
+                <li><a href="#contact">Грузчики на производство</a></li>
+                <li><a href="#contact">Грузчики на разовую работу</a></li>
+                <li><a href="#contact">Грузчики на погрузочно-разгрузочные работы</a></li>
+              </div>
+            </ul>
+        </li>
+
+        <li class="menu-burger-item fx f-col">
+            <span class="fx f-sb ">грузоперевозки <i class="icon-img2  t-white"><img class="menu__item_btn" src="./img/arrow.svg" alt=""></i></span>
+            <ul class="menu-burger-item-content ml20 fx g20   ">
+              <div class="fx g20 mt20">
+                <li><a href="#about">Подъем/спуск на этаж</a></li>
+                <li><a href="#services">Стоимость грузчиков</a></li>
+                <li><a href="#contact">Вывоз мусора/материалов</a></li>
+                <li><a href="#contact">Грузчики на производство</a></li>
+                <li><a href="#contact">Грузчики на разовую работу</a></li>
+                <li><a href="#contact">Грузчики на погрузочно-разгрузочные работы</a></li>
+              </div>
+            </ul>
+        </li>
+
+        <li class="menu-burger-item fx f-col">
+            <span class="fx f-sb ">такелажные работы <i class="icon-img2  t-white"><img class="menu__item_btn" src="./img/arrow.svg" alt=""></i></span>
+            <ul class="menu-burger-item-content ml20 fx g20">
+              <div class="fx g20 mt20">
+                <li><a href="#about">Подъем/спуск на этаж</a></li>
+                <li><a href="#services">Стоимость грузчиков</a></li>
+                <li><a href="#contact">Вывоз мусора/материалов</a></li>
+                <li><a href="#contact">Грузчики на производство</a></li>
+                <li><a href="#contact">Грузчики на разовую работу</a></li>
+                <li><a href="#contact">Грузчики на погрузочно-разгрузочные работы</a></li>
+                <li><a href="#about">Подъем/спуск на этаж</a></li>
+                <li><a href="#services">Стоимость грузчиков</a></li>
+                <li><a href="#contact">Вывоз мусора/материалов</a></li>
+                <li><a href="#contact">Грузчики на производство</a></li>
+                <li><a href="#contact">Грузчики на разовую работу</a></li>
+                <li><a href="#contact">Грузчики на погрузочно-разгрузочные работы</a></li>
+              </div>
+            </ul>
+        </li>
+      </ul>
+
+      <hr class="w100">
+
+     
+
+      <ul class="menu-burger-item-content  fx f-col  t-upper t-white g20 ">
+        <li><a href="#">О компании</a></li>
+        <li><a href="#">Вакансии</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul> 
+
+      <hr class="w100">
+      
+       <div class="menu__contact">
+        <div class="fx t-white">
+            <i><img src="./img/menu-contact1.svg" alt=""></i>
+            <div class="fx f-col ml20">
+                <span>8 (800) 700-51-53</span>
+                <span> +7 (965) 226-57-90</span>
+            </div>
+        </div>
+
+        <div class="fx t-white mt20">
+            <i><img src="./img/menu-contact2.svg" alt=""></i>
+            <div class="fx f-col ml20">
+                <span>info@standart-express.ru</span>
+                <span>Выполняем заказы: 24/7</span>
+            </div>
+        </div>
+      </div>
 
       <button class="w100 w-s-fit t-center btn btn-accent t-white fx f-c mt20">Перезвоните</button>
       
-      
+      </div>
     </div>
   </div>
 `;
@@ -73,7 +168,7 @@ document.addEventListener('DOMContentLoaded', () => {
     menu.classList.toggle('active');
     burger.classList.toggle('active');
     body.style.overflow = 'hidden'; // Отключаем прокрутку страницы при открытом меню
-    body.style.paddingRight = `${scrollbarWidth}px`; // Компенсируем ширину скролла чтобы избежать дергания контента
+   
   });
 
 
@@ -102,7 +197,7 @@ document.addEventListener('DOMContentLoaded', () => {
       menu.classList.add('noactive');
       burger.classList.remove('active');
       body.style.overflow = ''; // Восстанавливаем прокрутку страницы
-      body.style.paddingRight = ''; // Убираем компенсирующий отступ
+    
       setTimeout(() => {
         menu.classList.remove('active');
         menu.classList.remove('noactive');
@@ -118,7 +213,7 @@ document.addEventListener('DOMContentLoaded', () => {
       menu.classList.add('noactive');
       burger.classList.remove('active');
       body.style.overflow = ''; // Восстанавливаем прокрутку страницы
-      body.style.paddingRight = ''; // Убираем компенсирующий отступ
+
       setTimeout(() => {
         menu.classList.remove('active');
         menu.classList.remove('noactive');
