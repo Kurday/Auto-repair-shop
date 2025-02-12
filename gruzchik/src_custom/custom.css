@@ -232,7 +232,7 @@ body::-webkit-scrollbar
     .menu__burger_min 
     {
         transform: translateY(-100%) !important;
-        width: 100%;
+        width: 80%;
     }
         /* Видимое состояние */
     .menu__burger_min.active 
