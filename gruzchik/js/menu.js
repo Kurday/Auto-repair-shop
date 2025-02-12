@@ -9,7 +9,7 @@ const menuHTML = `
     <p class="fs14">Меню</p>
 
     <div class="menu__burger_min fx f-s" id="menu-min">
-      <div class="container">
+      
 
       <div class="menu-close" id="menu-close">
         <span></span>  
@@ -21,7 +21,7 @@ const menuHTML = `
 
       <button class="w100 w-s-fit t-center btn btn-accent t-white fx f-c mt20">Перезвоните</button>
       
-      </div>
+      
     </div>
   </div>
 `;
