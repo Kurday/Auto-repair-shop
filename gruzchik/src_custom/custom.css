@@ -68,6 +68,12 @@
     font-style: normal;
 }
 
+body
+{
+    min-width: 480px;
+}
+
+
 
 .tabs div button
 {
@@ -394,14 +400,7 @@ body::-webkit-scrollbar
     }
 }
 
-@media (max-width: 500px)
-{
-    body 
-    {
-        min-width: 468px;
-    }
-    
-}
+
 
 
 /*    ************************      БЛОК SERVICES  ******************88 */
