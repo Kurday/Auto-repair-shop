@@ -1,0 +1,29 @@
+.br{border: 1px solid red;}
+.brg{border: 1px solid green;}
+.brb{border: 1px solid blue;}
+.bry{border: 1px solid yellow;}
+
+body
+{
+    min-width: 500px;
+    line-height: 150%;
+    color: var(--w100-color)!important;
+}
+
+body, a
+{
+    color: var(--w-color);
+
+}
+
+h1, h2
+{
+    font-family: 'Maharlika';
+    color: var(--w-color);
+    text-transform: uppercase;
+}
+
+h3,h4
+{
+    font-family: 'SnellRoundhand';
+}
